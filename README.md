@@ -48,7 +48,7 @@ Down below is the list of the main scripts to launch the relevant service, certa
    
         docker exec --privileged -it -e EMULATOR_TIMEOUT=300 androidContainer bash -c "./start_emu_headless.sh"
 
-5.  **Starting VNC server:**
+5.  **Starting VNC server:** (not needed for headless mode)
 
         docker exec --privileged -it androidContainer bash -c "./start_vnc.sh"
 
