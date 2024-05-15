@@ -33,7 +33,7 @@ Down below is the list of the main scripts to launch the relevant service, certa
     
 2.  **Start your container:**
 
-        docker run -it --privileged -d -p 5900:5900 --name androidContainer --privileged android-emulator  
+        docker run -it --privileged -d -p 4723:4723 --name androidContainer --privileged android-emulator  
 
 3.  **Launch the appium session :**
 
